@@ -17,6 +17,14 @@
   0px;
 }
 .form-add{
+  position: fixed;
+  top: 20%;
+  left: 50%;
+  transform:translateX(-50%);
+  width: 600px;
+  /* right: 0; */
+  border-radius: 8px;
+  background-color:#fff;
   margin-top: 20px;
   padding:10px;
   box-shadow: 1px 1px 10px  #999;
@@ -51,4 +59,10 @@
 .header{
   text-align: center;
   font-size: 4rem;
+}
+.btn-add{
+  margin-left: 50%;
+  margin-bottom: 30px;
+  transform:translateX(-50%);
+
 }
